@@ -1,0 +1,141 @@
+<html lang="en">
+<head>
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" type="text/css" href = "index.css"/>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        footer a {
+            color: #1d4e86;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Photo Gallery</h1>
+    <p>Photos of me, my friends, my family,the nature and some random pictures that i took.</p>
+</header>
+
+<div class="container">
+    <div class="gallery">
+        <a href="fishing.jpg" target="_blank">
+            <img src="fishing.jpg" alt="Fishing while admiring the nature">
+        </a>
+        <a href="friends1.jpg" target="_blank">
+            <img src="friends1.jpg" alt="With friends">
+        </a>
+        <a href="familia.jpg" target="_blank">
+            <img src="familia.jpg" alt="My family">
+        </a>
+        <a href="maryam1.jpg" target="_blank">
+            <img src="maryam1.jpg" alt="Me with my niece">
+        </a>
+        <a href="parents.jpg" target="_blank">
+            <img src="parents.jpg" alt="My Love">
+        </a>
+        <a href="mework.jpg" target="_blank">
+            <img src="mework.jpg" alt="Friend smiling">
+        </a>
+        <a href="nature1.jpg" target="_blank">
+            <img src="nature1.jpg" alt="Friends at the beach">
+        </a>
+        <a href="police.jpg" target="_blank">
+            <img src="police.jpg" alt="Police officer">
+        </a>
+        <a href="drip.jpg" target="_blank">
+            <img src="drip.jpg" alt="Me">
+        </a>
+        <a href="flower.jpg" target="_blank">
+            <img src="flower.jpg" alt="pretty flower">
+        </a>
+        <a href="father.jpg" target="_blank">
+            <img src="father.jpg" alt="playing piano">
+        </a>
+        <a href="hustle.jpg" target="_blank">
+            <img src="hustle.jpg" alt="hustling">
+        </a>    
+        <a href="gym.jpg" target="_blank">
+                <img src="gym.jpg" alt="me at the gym">
+            </a>
+        <a href="intern.jpg" target="_blank">
+                <img src="intern.jpg" alt="during internship">
+            </a>
+        <a href="perfume.jpg" target="_blank">
+                <img src="perfume.jpg" alt="dream car">
+            </a>
+        <a href="raya.jpg" target="_blank">
+                <img src="raya.jpg" alt="dream car">
+            </a> 
+        <a href="roundk.jpg" target="_blank">
+                <img src="roundk.jpg" alt="dream car">
+            </a> 
+        <a href="beach.jpg" target="_blank">
+                <img src="beach.jpg" alt="dream car">
+            </a>                 
+        </a>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Ahmad Nazaini</p>
+    <a href="index.html">Back to Home</a>
+</footer>
+
+</body>
+</html>
+
